@@ -1,4 +1,24 @@
-site_name: Procedural Space Skybox 3.0.0
+site_name: Procedural Space Skybox
 site_url: https://github.com/parallel-cascades/procedural-space-skybox-documentation
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Welcome Window: getting-started/welcome-window.md
+  - Shader Skybox:
+    - Introduction: shader-skybox/introduction.md
+    - Setup: shader-skybox/setup.md
+    - Shader Properties Reference: shader-skybox/shader-properties-reference.md
+    - Static Cubemap Rendering: shader-skybox/static-cubemap-rendering.md
+  - VFX Graph Skybox:
+    - Setup: vfx-graph-skybox/setup.md
+    - Customisation: vfx-graph-skybox/customization.md
+
 theme:
   name: material
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
