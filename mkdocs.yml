@@ -7,16 +7,43 @@ nav:
     - Installation: getting-started/installation.md
     - Welcome Window: getting-started/welcome-window.md
   - Shader Skybox:
-    - Introduction: shader-skybox/introduction.md
-    - Setup: shader-skybox/setup.md
+    - Shader Skybox Introduction: shader-skybox/introduction.md
+    - Shader Skybox Setup: shader-skybox/setup.md
+    - Customizing the Skybox Shader: shader-skybox/customization.md
     - Shader Properties Reference: shader-skybox/shader-properties-reference.md
     - Static Cubemap Rendering: shader-skybox/static-cubemap-rendering.md
   - VFX Graph Skybox:
-    - Setup: vfx-graph-skybox/setup.md
-    - Customisation: vfx-graph-skybox/customization.md
+    - VFX Graph Skybox Introduction: vfx-graph-skybox/setup.md
+    - VFX Graph Skybox Customization: vfx-graph-skybox/customization.md
+    - Procedural Nebula Texture Generator: vfx-graph-skybox/procedural-nebula-texture-generator.md
 
 theme:
   name: material
+  logo: assets/logo.png
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.footer
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://parallel-cascades.github.io/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ParallelCascades
+    - icon: fontawesome/brands/github
+      link: https://github.com/parallel-cascades
 
 markdown_extensions:
   - attr_list
