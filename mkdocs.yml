@@ -12,11 +12,13 @@ nav:
     - Customizing the Skybox Shader: shader-skybox/customization.md
     - Shader Properties Reference: shader-skybox/shader-properties-reference.md
     - Static Cubemap Rendering: shader-skybox/static-cubemap-rendering.md
+    - Shader Skybox Troubleshooting: shader-skybox/troubleshooting.md
   - VFX Graph Skybox:
     - VFX Graph Skybox Introduction: vfx-graph-skybox/setup.md
     - VFX Graph Skybox Customization: vfx-graph-skybox/customization.md
     - Procedural Nebula Texture Generator: vfx-graph-skybox/procedural-nebula-texture-generator.md
   - 3D Skybox: 3d-skybox.md
+  - Changelog: changelog.md
 
 theme:
   name: material
