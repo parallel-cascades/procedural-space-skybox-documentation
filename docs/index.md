@@ -4,6 +4,8 @@
 
 This asset includes tools and effects for creating procedural space skyboxes for your Unity games. Included are shader effects and materials, editor tools and VFX Graph systems and particles for creating different styles of space skyboxes.
 
+As of v3.1.0, the Procedural Celestial Body Materials Asset is included in this 
+
 ## Why use a procedural skybox?
 
 - Procedural skyboxes offer extensive customization options, letting you generate unique looking levels for your games and prototypes in seconds.
