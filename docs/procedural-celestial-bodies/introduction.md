@@ -34,7 +34,7 @@ There are two sample scenes in this asset:
 
 The Sample URP Asset and Renderer have the shadows and anti-aliasing settings used to get the look of the asset presented in the store page.
 
-The 3D Skybox Renderer is related to [3D Skybox](../3d-skybox.md) setup.
+The 3D Skybox Renderer is related to [3D Skybox](../3d-skybox-background.md) setup.
 
 ## VSync
 

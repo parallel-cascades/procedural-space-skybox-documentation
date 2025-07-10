@@ -18,7 +18,7 @@ nav:
     - VFX Graph Skybox Customization: vfx-graph-skybox/customization.md
     - Procedural Nebula Texture Generator: vfx-graph-skybox/procedural-nebula-texture-generator.md
   - Procedural Celestial Bodies:
-    - Procedural Celestial Body Materials Introduction: procedural-celestial-bodies/procedural-celestial-body-materials-introduction.md
+    - Introduction: procedural-celestial-bodies/introduction.md
     - Procedural Stars: procedural-celestial-bodies/procedural-stars.md
     - Procedural Gas Giants: procedural-celestial-bodies/procedural-gas-giants.md
     - Custom Menu Commands: procedural-celestial-bodies/custom-menu-commands.md
