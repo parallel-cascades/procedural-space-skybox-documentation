@@ -14,9 +14,15 @@ The quickest way to add a new procedural star object to your scene is by using t
 ## MonoBehaviour Component Reference
 ![Procedural Star Component](../assets/images/procedural-stars/procedural-star-component.png)
 
-For users of this asset, it is enough to explore the myriad effects and patterns that can be achieved by adjusting the Color Gradient, R and Q colors. 
+Instead of directly modifying the shader/material properties, it's recommended for you to use a MonoBehaviour Procedural Star component. These update the shader properties, bind the gradient texture sampled in the shader to a user-friendly inspector gradient editor, make sure the effects remain consistent if the object's scale changes. 
 
-The Fresnel Color is an additional emissive effect at the edges of star spheres. 
+### Colors - Domain Warp Sampling
+
+The domain warped noise that forms the basis for the dynamic pattern produces a main noise value that samples the Color Gradient, and two values R and Q, which are used to blend that color with tints. Myriad effects and patterns  can be achieved by adjusting the Color Gradient, R and Q colors. 
+
+The Fresnel Color is an additional emissive effect added at the edges of star spheres. 
+
+### Warping and Scaling
 
 The Warp Amount and Scale properties produce the roiling, twisting pattern of the star's liquid surface.
 
@@ -53,5 +59,5 @@ Each star corona is a full-screen 3D post-processing effect applied through a cu
 
 The Star Object Radius property relates to the radius of the mesh used for the star object. The default value of 0.5 applies to Unity’s Sphere mesh and the custom high-resolution ico-sphere mesh provided with this asset. You do not have to modify this property if you’re changing the star GameObject’s transform scale, the scale is calculated automatically and passed to the shader through the Star Corona MonoBehaviour.
 
-Each object in the scene with this glow componetn adds an additional render pass to apply the effect.
+Each object in the scene with this glow component adds an additional render pass to apply the effect.
 
