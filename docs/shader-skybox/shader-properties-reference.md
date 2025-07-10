@@ -28,6 +28,8 @@ Glowing stars have their own integer seed, as they are generated in a different 
 
 ## Sun
 
+<img src="../../assets/images/shader-properties-tutorial/sun-shader.png" alt="Sun Shader Image" width="75%" />
+
 1. **Sun Enabled**: Boolean keyword toggles the effect on or off, improving performance if the effect is not needed.
 2. **Sun Color**: Color of the sun glow. HDR color makes the emitted light bright and realistic.
 3. **Sun Core Falloff**: Controls the size of the sun sphere in the center.
