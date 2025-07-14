@@ -53,6 +53,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/parallel-cascades
 
+  analytics:
+    provider: google
+    property: G-B2RHNZS4W5
+
 markdown_extensions:
   - attr_list
   - md_in_html
