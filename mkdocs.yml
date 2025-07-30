@@ -22,6 +22,7 @@ nav:
     - Procedural Stars: procedural-celestial-bodies/procedural-stars.md
     - Procedural Gas Giants: procedural-celestial-bodies/procedural-gas-giants.md
     - Custom Menu Commands: procedural-celestial-bodies/custom-menu-commands.md
+    - Random Generation: procedural-celestial-bodies/random-generation.md
   - 3D Skybox Background: 3d-skybox-background.md
   - Changelog: changelog.md
 
