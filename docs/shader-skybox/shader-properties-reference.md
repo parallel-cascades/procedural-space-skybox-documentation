@@ -4,7 +4,7 @@
 
 All of the effects of this skybox shader are generated from pseudorandom noise functions. These are seeded with an initial value, out of which each unique variation is generated. There are several properties for random seeds for different effects:
 
-| ![3D Random Seed Example](../assets/images/shader-properties-tutorial/3d-random-seed.gif) |
+| <video controls loop muted playsinline preload="metadata" style="max-width:100%;height:auto;"><source src="../../assets/videos/3d-random-seed.mp4" type="video/mp4"></video> |
 |:--:|
 | The 3D Random seed affects background stars, nebulas and the galaxy band. Notice how the glowing stars remain stationary, as they use a different seed. Also notice how 'scrolling' the 3D seed in any direction makes the effects 'flow'. These noise algorithms are continuous functions, and small changes to the 3D seed shift the pattern in the designated direction. |
 
