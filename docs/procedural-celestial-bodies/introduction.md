@@ -34,14 +34,6 @@ There are two sample scenes in this asset:
 - Space Objects Sample Scene - shows the 9 sample celestial bodies, with glow effects and URP settings.
 - 3D Skybox Sample Scene - shows a more complex 3D Skybox set up using some of the celestial body prefabs.
 
-## URP Settings
-
-![URP Settings Project](../assets/images/3d-skybox/3d-skybox-renderer-asset.png)
-
-The Sample URP Asset and Renderer have the shadows and anti-aliasing settings used to get the look of the asset presented in the store page.
-
-The 3D Skybox Renderer is needed for [3D Skybox](../3d-skybox-background.md) setup.
-
 ## VSync
 
 To avoid screen tearing with the glowing corona post-processing effect, make sure to enable VSync in the Scene View:

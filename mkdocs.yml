@@ -24,7 +24,6 @@ nav:
     - Custom Menu Commands: procedural-celestial-bodies/custom-menu-commands.md
     - Random Generation: procedural-celestial-bodies/random-generation.md
     - Filtering: procedural-celestial-bodies/filtering.md
-  - 3D Skybox Background: 3d-skybox-background.md
   - Changelog: changelog.md
 
 theme:
